@@ -1460,9 +1460,9 @@ end
 
 function addon:Initialize()
 	local accountDefaults = {
-		enableTweaks = true,
+		enableTweaks = false,
 		enableMap = true,
-		zoom = 1.3,
+		zoom = 1.5,
 		mountedZoom = 1,
 		subZoneZoom = 1,
 		dungeonZoom = 0.7,

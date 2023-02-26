@@ -100,7 +100,7 @@ function addon:InitSettings()
 	self.settingsControls = settings
 	settings.allowDefaults = true
 	settings.version = "2.0.2"
-	settings.website = "http://www.esoui.com/downloads/info1399-VotansMiniMap.html"
+	--settings.website = "http://www.esoui.com/downloads/info1399-VotansMiniMap.html"
 
 	settings:AddSetting {
 		type = LibHarvensAddonSettings.ST_CHECKBOX,
